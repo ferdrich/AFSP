@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AFSP.ApplicationLogic.File" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAgAIAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLogic\File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.ApplicationLogic.FileList" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAIA=</HashCode>
+      <FileName>ApplicationLogic\FileList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.Dispatcher" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Dispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.DownloadAckPacket" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\DownloadAckPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.DownloadErrorPacket" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\DownloadErrorPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.DownloadReplyPacket" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\DownloadReplyPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.DownloadRequestPacket" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\DownloadRequestPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.ExchangeFilelistPacket" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\ExchangeFilelistPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.ExchangeFilelistReqPacket" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\ExchangeFilelistReqPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.HeartBeatPacket" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\HeartBeatPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.NetworkInterface" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAQAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\NetworkInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.Packet" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAIAAAAAA=</HashCode>
+      <FileName>Communication\Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.SigninAckPacket" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\SigninAckPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.SigninPacket" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\SigninPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Communication.SignoutPacket" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\SignoutPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Constants" Collapsed="true">
+    <Position X="23.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAEEAEAIAAAAAAoAECAAAAAAAAAAAAAAAICAAAAA=</HashCode>
+      <FileName>Common\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Form1" Collapsed="true">
+    <Position X="22.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQCAAAUAACAAAQBAAACAAQACAAAKARIQAkAAACAAEAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Program" Collapsed="true">
+    <Position X="24" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Properties.Resources" Collapsed="true">
+    <Position X="25.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AFSP.Properties.Settings" Collapsed="true">
+    <Position X="27.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

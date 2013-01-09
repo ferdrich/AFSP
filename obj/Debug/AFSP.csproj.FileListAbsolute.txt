@@ -1,1 +1,10 @@
 c:\users\ferdrich\documents\visual studio 2012\Projects\AFSP\AFSP\bin\Debug\AFSP.exe.config
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\bin\Debug\AFSP.exe.config
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\bin\Debug\AFSP.exe
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\bin\Debug\AFSP.pdb
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\obj\Debug\AFSP.csprojResolveAssemblyReference.cache
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\obj\Debug\AFSP.Properties.Resources.resources
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\obj\Debug\AFSP.csproj.GenerateResource.Cache
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\obj\Debug\AFSP.exe
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\obj\Debug\AFSP.pdb
+F:\Studium\Master\Sem2\Telematik\Praktikum\Code\AFSP\obj\Debug\AFSP.Form1.resources

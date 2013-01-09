@@ -44,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationLogic\Controller.cs" />
+    <Compile Include="ApplicationLogic\File.cs" />
+    <Compile Include="ApplicationLogic\FileList.cs" />
+    <Compile Include="Communication\Dispatcher.cs" />
+    <Compile Include="Communication\DownloadAckPacket.cs" />
+    <Compile Include="Communication\DownloadErrorPacket.cs" />
+    <Compile Include="Communication\DownloadReplyPacket.cs" />
+    <Compile Include="Communication\DownloadRequestPacket.cs" />
+    <Compile Include="Communication\ExchangeFilelistPacket.cs" />
+    <Compile Include="Communication\ExchangeFilelistReqPacket.cs" />
+    <Compile Include="Communication\HeartBeatPacket.cs" />
+    <Compile Include="Communication\Identifier.cs" />
+    <Compile Include="Communication\NetworkInterface.cs" />
+    <Compile Include="Communication\Packet.cs" />
+    <Compile Include="Communication\SigninAckPacket.cs" />
+    <Compile Include="Communication\SigninPacket.cs" />
+    <Compile Include="Communication\SignoutPacket.cs" />
+    <Compile Include="Common\Constants.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +82,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -73,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserInterface\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

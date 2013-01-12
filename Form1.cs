@@ -31,20 +31,45 @@ namespace AFSP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenFileDialog oF = new OpenFileDialog();
-            oF.Filter = "txt files (*.txt)| *.txt|All files (*.*)|*.*";
-            if (oF.ShowDialog() == DialogResult.OK)
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Multiselect = true;
+            //oF.Filter = "txt files (*.txt)| *.txt|All files (*.*)|*.*";
+            if (fileDialog.ShowDialog() == DialogResult.OK)
             {
-                string[] files = oF.FileNames;
+                treeViewLeft.CheckBoxes = true;
                 //Table create
-                foreach (var file in files)
-                {
+                foreach (var file in fileDialog.FileNames)
+               {
+                    //treeViewLeft.Nodes.Add()
+
+                    
+                   fileListView.Items.Add(file);
                     //Table fill
-                }
+               }
                 //Table show
             }
             //Fill table
             //splitContainer2.Panel1. Add Table
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog folderDialog = new FolderBrowserDialog();
+            folderDialog.Description = "Select the directory that you want to share with the comunity.";
+            folderDialog.ShowNewFolderButton = false;
+
+            // Default to the My Documents folder.
+            //folderDialog.RootFolder = Environment.SpecialFolder.Personal;
+            if (folderDialog.ShowDialog() == DialogResult.OK)
+            {
+                System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(folderDialog.SelectedPath);
+                System.IO.FileSystemInfo[] files = di.GetFiles();
+                foreach (var file in files)
+                {
+                    fileListView.Items.Add(file);
+                }
+                
+            }
         }
     }
 }

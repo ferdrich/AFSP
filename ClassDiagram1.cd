@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AFSP.ApplicationLogic.File" Collapsed="true">
+  <Class Name="AFSP.ApplicationLogic.File">
     <Position X="27" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAIAgAIAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ApplicationLogic\File.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AFSP.ApplicationLogic.FileList" Collapsed="true">
+  <Class Name="AFSP.ApplicationLogic.FileList">
     <Position X="25.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAIA=</HashCode>
@@ -52,7 +52,7 @@
   <Class Name="AFSP.Communication.ExchangeFilelistPacket" Collapsed="true">
     <Position X="5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAA=</HashCode>
       <FileName>Communication\ExchangeFilelistPacket.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -106,7 +106,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="AFSP.Constants" Collapsed="true">
-    <Position X="23.75" Y="2" Width="1.5" />
+    <Position X="23.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQIAEEAEAIAAAAAAoAECAAAAAAAAAAAAAAAICAAAAA=</HashCode>
       <FileName>Common\Constants.cs</FileName>
@@ -115,7 +115,7 @@
   <Class Name="AFSP.Form1" Collapsed="true">
     <Position X="22.25" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BQCAAAUAACAAAQBAAACAAQACAAAKARIQAkAAACAAEAA=</HashCode>
+      <HashCode>BQCEAAUAACAAgQBAAACBAQACAAACARIQAmAAACAAEAA=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
